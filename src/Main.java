@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+SalesManager salesManager = new SalesManager(new int[] {60, 9, 100, 90});
+int max = salesManager.max();
+        System.out.println(max);
+
     }
 }
